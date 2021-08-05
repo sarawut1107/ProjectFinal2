@@ -36,10 +36,17 @@ class Body extends StatelessWidget {
             ),
             RoundedInputField(
               hintText: "ที่อยู๋",
+              icon: Icons.home,
+              onChanged: (value) {},
+            ),
+            RoundedInputField(
+              hintText: "เลขบัตรประจำตัวประชาชน",
+              icon: Icons.contact_mail,
               onChanged: (value) {},
             ),
             RoundedInputField(
               hintText: "เบอร์",
+              icon: Icons.phone_iphone,
               onChanged: (value) {},
             ),
             RoundedInputField(
@@ -48,6 +55,7 @@ class Body extends StatelessWidget {
             ),
             RoundedInputField(
               hintText: "Facebook",
+              icon: Icons.facebook,
               onChanged: (value) {},
             ),
             RoundedButton(
